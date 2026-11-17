@@ -1,4 +1,3 @@
->>> MULAI security-scan.yml
 name: Container Security Scan
 
 # Trigger: scan otomatis pada push dan pull request
@@ -43,4 +42,3 @@ jobs:
         with:
           sarif_file: "trivy-results.sarif"
           category: "container-scanning"
-<<< SELESAI security-scan.yml
